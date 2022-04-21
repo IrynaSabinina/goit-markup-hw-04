@@ -227,12 +227,9 @@ header {
   color: var(--bj-color);
 }
 
-.hero-button:hover {
-  cursor: pointer;
-}
-
+.hero-button:hover,
 .hero-button:focus {
-  border-color: var(--bj-color);
+  cursor: pointer;
 }
 
 .specifics {
@@ -623,6 +620,12 @@ address {
   margin-right: 30px;
   margin-bottom: 30px;
   padding: 0;
+}
+
+.project:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project:nth-child(3n) {
