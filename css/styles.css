@@ -385,11 +385,13 @@ header {
 }
 
 .social-icons {
-  display: inline-flex;
+  display: flex;
   align-content: center;
   justify-content: center;
-  padding-left: 31px;
   margin-top: 16px;
+  margin-left: auto;
+  margin-left: auto;
+  padding: 0;
 }
 
 .social-list {
@@ -408,7 +410,6 @@ header {
 .social-list-icon {
   width: 20px;
   height: 20px;
-  align-items: center;
   fill: var(--social-icon);
 }
 
@@ -427,13 +428,17 @@ header {
   border: 1px;
   border-radius: 4px;
   border-color: var(--social-icon);
+  margin-top: 50px;
 }
+
 .client-iteam {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-icon);
   border-radius: 4px;
-  margin-top: 50px;
 }
 
 .client-iteam:hover,
@@ -444,10 +449,6 @@ header {
 .client-iteam:hover .client,
 .client-iteam:focus .client {
   fill: var(--accent-color);
-}
-.client-link {
-  display: flex;
-  padding: 16px 32px;
 }
 
 .client-iteam:not(:last-child) {
