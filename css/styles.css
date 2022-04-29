@@ -405,10 +405,13 @@ header {
 }
 
 .social-list {
+  border-radius: 50%;
+}
+
+.social-list-iteam {
   display: flex;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
   align-items: center;
   justify-content: center;
 }
@@ -442,13 +445,16 @@ header {
 }
 
 .client-iteam {
+  border: 1px solid var(--social-icon);
+  border-radius: 4px;
+}
+
+.client-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid var(--social-icon);
-  border-radius: 4px;
 }
 
 .client-iteam:hover,
@@ -562,8 +568,6 @@ address {
 
 .footer-social-list {
   display: flex;
-  width: 44px;
-  height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   align-items: center;
