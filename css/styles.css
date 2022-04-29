@@ -100,6 +100,9 @@ header {
 .nav-list-link:not(:last-child) {
   margin-right: 50px;
 }
+.nav-list-link {
+  align-items: center;
+}
 
 .link {
   display: block;
@@ -118,11 +121,13 @@ header {
 
 .mail,
 .tell {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  align-items: center;
 }
 
 .nav-list {
@@ -137,6 +142,8 @@ header {
   fill: var(--social-icon);
   padding: 0;
   margin-right: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-list-icon-phone {
@@ -145,6 +152,8 @@ header {
   fill: var(--social-icon);
   padding: 0;
   margin-right: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav.list .link {
@@ -568,7 +577,6 @@ address {
 .footer-social-list-icon {
   width: 20px;
   height: 20px;
-  align-items: center;
   fill: var(--social-icon-hover);
 }
 
