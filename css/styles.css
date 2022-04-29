@@ -101,7 +101,8 @@ header {
   margin-right: 50px;
 }
 .nav-list-link {
-  align-items: center;
+  display: flex;
+  align-items: baseline;
 }
 
 .link {
