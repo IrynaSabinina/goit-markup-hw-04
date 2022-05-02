@@ -72,7 +72,9 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="hero-button">Заказать услугу</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
 
@@ -125,6 +127,9 @@
                 alt="Обработка данных"
                 width="370"
               />
+              <div class="works-item-about">
+                <p class="works-iteam-text">Десктопные приложения</p>
+              </div>
             </li>
             <li class="works-iteams">
               <img
@@ -133,6 +138,9 @@
                 alt="Адаптация для мобильных устройств"
                 width="370"
               />
+              <div class="works-item-about">
+                <p class="works-iteam-text">Мобильные приложения</p>
+              </div>
             </li>
             <li class="works-iteams">
               <img
@@ -141,6 +149,9 @@
                 alt="визуальный контент"
                 width="370"
               />
+              <div class="works-item-about">
+                <p class="works-iteam-text">Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -490,5 +501,12 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="button-close" data-modal-close></button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
